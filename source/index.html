@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>«Кэт энерджи»</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="/source/styles/styles.scss">
   <script src="scripts/index.js" defer></script>
 </head>
 <body class="page__body">
@@ -12,11 +12,11 @@
   <section class="header-content">
     <a class="header-content__logo" href="index.html">
       <picture class="header-content__logo-image">
-        <source srcset="source/images/index/logo_pic.svg">
+        <source srcset="../source/images/index/logo_pic.svg">
       </picture>
         <span class="header-content__logo-text">
           Cat Energy<picture>
-          <source srcset="source/images/index/logo_text.svg">
+          <source srcset="../source/images/index/logo_text.svg">
         </picture>
         </span>
     </a>
@@ -24,7 +24,7 @@
       <ul class="header-navigation-menu">
         <li class="header-navigation-menu__item current"><a href="index.html">Главная</a></li>
         <li class="header-navigation-menu__item"><a href="catalog.html">Каталог продукции</a></li>
-        <li class="header-navigation-menu__item"><a href="#prog">Подбор программы</a></li>
+        <li class="header-navigation-menu__item"><a href="#">Подбор программы</a></li>
       </ul>
     </nav>
   </section>
@@ -33,24 +33,24 @@
   <h1 class="page-hero__lead">Функциональное<br> питание для котов</h1>
   <span class="page-hero__title">Занялся собой? Займись котом!</span>
   <button class="page-hero__calculate" type="button">Подобрать программу</button>
-  <img class="page-hero__image" alt="cat-energy-pack" width="552px" height="499px" src="source/images/index/index-can.png">
+  <img class="page-hero__image" alt="cat-energy-pack" src="/source/images/index/index-can.png">
 </div>
 <section class="main-content">
   <div class="cat-diets">
     <div class="diet-card">
-      <img class="diet-card__icon" alt="fat-cat">
+      <img class="diet-card__icon" alt="fat-cat" src="images/index/viewport=mobile,%20state=before@1x.svg">
       <h2 class="diet-card__title">похудение</h2>
       <span class="diet-card__text">Ваш кот весит больше собаки и почти утратил
         способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу
         сбросить лишний вес.</span>
-      <a class="diet-card__link" href="catalog.html#slim">каталог slim</a>
+      <a class="diet-card__link" href="catalog.html">каталог slim</a>
     </div>
     <div class="diet-card">
-      <img class="diet-card__icon" alt="slim-cat">
+      <img class="diet-card__icon" alt="slim-cat" src="images/index/viewport=mobile,%20state=after@1x.svg">
       <h2 class="diet-card__title">набор массы</h2>
       <span class="diet-card__text">Заработать авторитет среди дворовых котов и даже собак?
         Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</span>
-      <a class="diet-card__link" href="catalog.html#pro">каталог pro</a>
+      <a class="diet-card__link" href="catalog.html">каталог pro</a>
     </div>
   </div>
 </section>
@@ -98,8 +98,8 @@
     </div>
   </div>
   <div class="live-about-picture">
-    <img alt="fat-cat-big">
-    <img alt="slim-cat-big">
+    <img alt="fat-cat-big" src="images/index/viewport=mobile,%20state=before@1x.svg">
+    <img alt="slim-cat-big" src="images/index/viewport=mobile,%20state=after@1x.svg">
   </div>
 </section>
 <footer>
