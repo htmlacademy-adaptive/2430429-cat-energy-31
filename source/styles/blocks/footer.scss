@@ -1,15 +1,12 @@
 footer {
   display: flex;
-  background-color: rgb(120, 120, 120);
-  color: #000;
+  background: url("../../images/index/Map.jpg") no-repeat rgb(120, 120, 120);
+  color: #000000;
   padding: 10px 15px;
 }
 
 .about-map {
   display: flex;
   justify-content: space-between;
-  background: url("/images/index/Map.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
   padding: 10px 15px;
 }
