@@ -1,8 +1,9 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Hardd6969](https://up.htmlacademy.ru/adaptive/31/user/2430429).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Ольга Ветер](https://htmlacademy.ru/profile/id73199).
+* Мой проект: [Кэт энерджи](https://github.com/Hard6969/2430429-cat-energy-31).
+* Pages: [GitHub Pages](https://hard6969.github.io/2430429-cat-energy-31/).
 ---
 
 **Обратите внимание, что папка с вашими исходными файлами для работы над проектом — `source/`.**
